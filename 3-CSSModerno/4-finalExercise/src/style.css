@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.817);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+    height: 100px;
+}
+
+.header .logo{
+    width: 250px;
+}
+
+.header .buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons .headButton{
+    background-color: transparent;
+    border: transparent;
+    color: white ;
+    padding: 10px 15px; 
+    font-size: 20px;
+    border: 0px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.headButton:hover{
+    border-bottom: 3px black;
+    border-style: solid;
+}
+
+.main-content .titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding: 20px;
+}
+
+.titles #title{
+    font-size: 25px;
+}
+
+.titles #sub-title{
+    font-size: 20px;
+    color: rgb(74, 74, 74);
+}
+
+.mainSportsImage{
+    width: 245px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.categorias{
+    flex: 1 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.principal-sports{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 50px;
+}
+
+
+.sports-description{
+    max-width: 250px;
+    transition:  ease-in-out ;
+}
+
+.sports-description:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.secundary-sports{
+    background-color: rgba(0, 0, 0, 0.817);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.secundarySportsImage{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.paragraph{
+    color: white;
+}

@@ -1,0 +1,19 @@
+h1{
+    color: rgb(97, 11, 177);
+    font-size: 45px;
+    border-color: yellow;
+    border-width: 4px;
+    border-style:dashed;
+
+    border: 2px dashed orange;
+}
+li{
+    color: rgb(1, 72, 1);
+}
+body{
+    background-color: rgb(171, 171, 171);
+    background-image: url("https://www.spacex.com/static/images/falcon-heavy/FH_5.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
