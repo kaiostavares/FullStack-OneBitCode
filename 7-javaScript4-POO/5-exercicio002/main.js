@@ -4,3 +4,4 @@ const Kaio = new User("Kaio")
 
 const post = Kaio.writePost("Js", "ArrowFunction")
 console.log(Kaio)
+post.newComment("Oi")
