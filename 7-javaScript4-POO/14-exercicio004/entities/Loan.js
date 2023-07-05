@@ -1,6 +1,6 @@
 const Installment = require('./Installment')
 
-class Loan{
+module.exports = class Loan{
     static #fee = 1.0639
     
     constructor(value, installments){
@@ -24,8 +24,3 @@ class Loan{
         }
     }
 }
-
-const f1 = new Loan(3200, 3)
-console.log(f1)
-
-//4,361.682238684511910368
